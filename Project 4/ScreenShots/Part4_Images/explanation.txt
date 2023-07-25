@@ -1,0 +1,5 @@
+We created a function called createExtent. This function will create an extent based file with the name as passed into the function.
+This extent based file then had the stat function called on it that way one can see some information about the file and that it is
+comprised of extents and the addresses and length are provided in the print statements. We did a simple example with writing to 1
+block than a larger example writing to 12 blocks. In the sysfile.c file you would find the createExtent function and how we write
+to the extent based block.
